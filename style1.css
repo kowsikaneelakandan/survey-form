@@ -1,0 +1,29 @@
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+th,td{
+    text-align: center;
+    padding: 10px;
+
+}
+tr:nth-child(even){
+    background-color:gainsboro;
+}
+.checked{
+    color: orange;
+}
+.container{
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    background-color:lightgray;
+        border-radius: 0;
+}
+@media screen and(max-width:600px) {
+    .namebutton,
+    .commentbutton{
+        width:10px;
+    }
+    
+}
